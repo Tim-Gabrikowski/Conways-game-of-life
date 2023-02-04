@@ -1,0 +1,42 @@
+{
+	"blueprints": [
+		{
+			"type": "glider",
+			"pattern": [" x ", "  x", "xxx"]
+		},
+		{
+			"type": "glidergun",
+			"pattern": [
+				"                        x",
+				"                      x x",
+				"            xx      xx            xx",
+				"           x   x    xx            xx",
+				"xx        x     x   xx",
+				"xx        x   x xx    x x",
+				"          x     x       x",
+				"           x   x",
+				"            xx"
+			]
+		},
+		{
+			"type": "5x5blob",
+			"pattern": ["xxxxx", "xxxxx", "xxxxx", "xxxxx", "xxxxx"]
+		}
+	],
+	"grid": {
+		"sizeX": 200,
+		"sizeY": 100
+	},
+	"objects": [
+		{
+			"type": "glidergun",
+			"x": 5,
+			"y": 5
+		},
+		{
+			"type": "alef",
+			"x": 100,
+			"y": 40
+		}
+	]
+}
